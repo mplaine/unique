@@ -1,4 +1,4 @@
-![Overview of the UniQue processing](./media/unique_processing.png)
+![Overview of the UniQue processing](./figures/unique_processing.png)
 
 # *UniQue:* An Approach for Unified and Efficient Querying of Heterogeneous Web Data Sources
 
@@ -9,30 +9,30 @@ Building mashup applications is challenging because web mashup developers need t
 
 Examples of mapping data between (a) JSON / CSV and (b) XML.
 
-![Data format unification](./media/data_format_unification.png)
+![Data format unification](./figures/data_format_unification.png)
 
 
 ## Query language unification
 
 Example of extending the expressiveness of CSS Selectors with XPath. The query is translated from (a) UQL to (b) XPath / XQuery. Our `:xpath()` extension in UQL is highlighted in red.
 
-![Query language unification](./media/query_language_unification.png)
+![Query language unification](./figures/query_language_unification.png)
 
 
 ## The *UniQue* implementation
 
 UniQue *proxy server* operates between the client (e.g., a web browser) and web data sources, as shown below.
 
-![Architecture of the UniQue system implementation](./media/unique_implementation.png)
+![Architecture of the UniQue system implementation](./figures/unique_implementation.png)
 
 
 ## Evaluation
 
 ### Demo application
 
-Climber Stalker, a demo web mashup application (see [video](./media/climberstalker_demo_video.mov)) accessing multiple web data sources and services.
+Climber Stalker, a demo web mashup application (see [video](https://youtu.be/mA-RTtyToJE)) accessing multiple web data sources and services.
 
-![Climber Stalker, a web mashup application](./media/climberstalker_demo_application.png)
+![Climber Stalker, a web mashup application](./figures/demo_application.png)
 
 
 ### Data sources
@@ -54,7 +54,7 @@ Information about the data sources used by the web mashup application.
 
 Comparison of generated network traffic per data source between UniQue and Yahoo! Query Language (YQL), the current state-of-the-art approach. UniQue shows up to 51% (with compression) and 3% (without compression) reduction in generated network traffic compared to YQL.
 
-![Evaluation results](./media/generated_network_traffic.png)
+![Evaluation results](./figures/generated_network_traffic.png)
 
 
 ## More information
